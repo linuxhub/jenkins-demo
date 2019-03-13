@@ -15,10 +15,11 @@ spec:
       containers:
       - name: jenkins-java-demo
         image: ${ORIGIN_REPO}/${REPO}:${IMAGE_TAG}
-        imagePullPolicy: Always
+        #imagePullPolicy: Always
         ports:
         - containerPort: 8080
-
+      imagePullSecrets:
+        - name: docker-reg-auth
 ---
 apiVersion: v1
 kind: Service
