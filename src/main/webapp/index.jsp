@@ -2,9 +2,9 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Aliyun Container Service</title>
+    <title>Linuxhub Demo</title>
 </head>
 <body>
-<h1>Hello Jenkins!</h1>
+<h1>Hello Linuxhub!</h1>
 </body>
 </html>
